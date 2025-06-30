@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:system-ui,Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(224, 224, 224);
+}
+
+.main h1{
+    padding: 20px;
+
+}
+.container1{
+    padding-top:10px ;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.box1{
+    border-radius: 5px;
+    line-height: 60px;
+    width: 30%;
+    background-color: white;
+    border: 1px;
+    padding: 10px;
+    box-shadow: 2px 1px px rgb(177, 177, 177);
+
+}
+
+#digit1{
+    display: block;
+    border-radius: 5px;
+    border: 0.5px solid rgb(141, 140, 140);
+    width: 95%;
+    padding: 10px;
+    font-size: 18px;
+}
+.box1 button{
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(79, 79, 226);
+    text-align: center;
+}
+
+.box2{
+    border-radius: 5px;
+    line-height: 60px;
+    width: 30%;
+    background-color: white;
+    border: 1px;
+    padding: 10px;
+    box-shadow: 2px 1px px rgb(177, 177, 177);
+
+}
+
+#digit2{
+    display: block;
+    border-radius: 5px;
+    border: 0.5px solid rgb(141, 140, 140);
+    width: 95%;
+    padding: 10px;
+    font-size: 18px;
+}
+.box2 button{
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(79, 79, 226);
+    text-align: center;
+}
+.box3{
+    border-radius: 5px;
+    line-height: 60px;
+    width: 30%;
+    background-color: white;
+    border: 1px;
+    padding: 10px;
+    box-shadow: 2px 1px px rgb(177, 177, 177);
+
+}
+
+#digit3{
+    display: block;
+    border-radius: 5px;
+    border: 0.5px solid rgb(141, 140, 140);
+    width: 95%;
+    padding: 10px;
+    font-size: 18px;
+}
+.box3 button{
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(79, 79, 226);
+    text-align: center;
+}
+.container2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.box4{
+    border-radius: 5px;
+    line-height: 60px;
+    width: 30%;
+    background-color: white;
+    border: 1px;
+    padding: 10px;
+    box-shadow: 2px 1px px rgb(177, 177, 177);
+
+}
+
+#digit4{
+    display: block;
+    border-radius: 5px;
+    border: 0.5px solid rgb(141, 140, 140);
+    width: 95%;
+    padding: 10px;
+    font-size: 18px;
+}
+.box4 button{
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(79, 79, 226);
+    text-align: center;
+}
+.box5{
+    border-radius: 5px;
+    line-height: 60px;
+    width: 30%;
+    background-color: white;
+    border: 1px;
+    padding: 10px;
+    box-shadow: 2px 1px px rgb(177, 177, 177);
+
+}
+
+#digit5{
+    display: block;
+    border-radius: 5px;
+    border: 0.5px solid rgb(141, 140, 140);
+    width: 95%;
+    padding: 10px;
+    font-size: 18px;
+}
+.box5 button{
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(79, 79, 226);
+    text-align: center;
+}
+.box6{
+    border-radius: 5px;
+    line-height: 60px;
+    width: 30%;
+    background-color: white;
+    border: 1px;
+    padding: 10px;
+    box-shadow: 2px 1px px rgb(177, 177, 177);
+
+}
+
+#digit6{
+    display: block;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(141, 140, 140);
+    width: 95%;
+    padding: 10px;
+    font-size: 18px;
+}
+.box6 button{
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(79, 79, 226);
+    text-align: center;
+}
+#digit7{
+    display: block;
+    border-radius: 5px;
+    border: 0.5px solid rgb(141, 140, 140);
+    width: 95%;
+    padding: 10px;
+    font-size: 18px;
+}
+#digit8{
+    display: block;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(141, 140, 140);
+    width: 95%;
+    padding: 10px;
+    font-size: 18px;
+}

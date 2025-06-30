@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Analyzer Web App </title>
+    <link rel="stylesheet" href="styles/style.css">
+    
+</head>
+<body>
+   <div class="main">
+    <h1>JavaScript Program</h1>
+    <div class="container1">
+        <div class="box1">
+            <h2>1.Prime Number Checker </h2>
+            <input type="number" id="digit1" placeholder="Enter a Number">
+            <button id="btn" onclick="check_prime()">Check Prime</button>
+            <p id="msg1"></p>
+        </div>
+        <div class="box2">
+            <h2>2.Buzz Number Checker</h2>
+            <input type="number" id="digit2" placeholder="Enter a Number">
+            <button id="btn" onclick="check_buzz()">Check Buzz</button>
+            <p id="msg2"></p>
+        </div>
+        <div class="box3">
+            <h2>3.Automorphic Number Checker</h2>
+            <input type="number" id="digit3" placeholder="Enter a Number">
+            <button id="btn" onclick="automorphic()">Check Automorphic</button>
+            <p id="msg3"></p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="box4">
+            <h2>4.Factorial Calculator</h2>
+            <input type="number" id="digit4" placeholder="Enter a Number">
+            <button id="btn" onclick="factorial()">Calculate Factorial</button>
+            <p id="msg4"></p>
+        </div>
+        <div class="box5">
+            <h2>5. Amicable Number Checker </h2>
+            <input type="number" id="digit5" placeholder="Enter a Number">
+            <input type="number" id="digit6" placeholder="Enter a Number">
+            <button id="btn" onclick="amicable()">Check Amicable</button>
+            <p id="msg5"></p>
+        </div>
+        <div class="box6">
+            <h2>1.Prime Number in a Range </h2>
+            <input type="number" id="digit7" placeholder="Enter Start Number">
+            <input type="number" id="digit8" placeholder="Enter End Number">
+            <button id="btn" onclick="prime_range()">Check Prime</button>
+            <p id="msg6"></p>
+        </div>
+    </div>
+    <script src="/script//script.js"></script>
+
+</body>
+</html>
