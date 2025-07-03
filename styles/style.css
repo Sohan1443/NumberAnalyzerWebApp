@@ -9,6 +9,7 @@ body{
 
 .main h1{
     padding: 20px;
+    text-align: center;
 
 }
 .container1{
@@ -29,11 +30,11 @@ body{
 
 }
 
+
 #digit1{
     display: block;
     border-radius: 5px;
     border: 0.5px solid rgb(141, 140, 140);
-    width: 95%;
     padding: 10px;
     font-size: 18px;
 }
@@ -62,7 +63,7 @@ body{
     display: block;
     border-radius: 5px;
     border: 0.5px solid rgb(141, 140, 140);
-    width: 95%;
+    /* width: 95%; */
     padding: 10px;
     font-size: 18px;
 }
@@ -90,7 +91,7 @@ body{
     display: block;
     border-radius: 5px;
     border: 0.5px solid rgb(141, 140, 140);
-    width: 95%;
+    /* width: 95%; */
     padding: 10px;
     font-size: 18px;
 }
@@ -125,7 +126,7 @@ body{
     display: block;
     border-radius: 5px;
     border: 0.5px solid rgb(141, 140, 140);
-    width: 95%;
+    /* width: 95%; */
     padding: 10px;
     font-size: 18px;
 }
@@ -153,7 +154,7 @@ body{
     display: block;
     border-radius: 5px;
     border: 0.5px solid rgb(141, 140, 140);
-    width: 95%;
+    /* width: 95%; */
     padding: 10px;
     font-size: 18px;
 }
@@ -182,12 +183,12 @@ body{
     margin-top: 15px;
     border-radius: 5px;
     border: 0.5px solid rgb(141, 140, 140);
-    width: 95%;
+    /* width: 95%; */
     padding: 10px;
     font-size: 18px;
 }
 .box6 button{
-    padding: 10px;
+    padding: 5px;
     font-size: 18px;
     color: white;
     border: none;
@@ -199,7 +200,7 @@ body{
     display: block;
     border-radius: 5px;
     border: 0.5px solid rgb(141, 140, 140);
-    width: 95%;
+    /* width: 95%; */
     padding: 10px;
     font-size: 18px;
 }
@@ -208,7 +209,22 @@ body{
     margin-top: 15px;
     border-radius: 5px;
     border: 0.5px solid rgb(141, 140, 140);
-    width: 95%;
+ 
     padding: 10px;
     font-size: 18px;
+}
+
+.box1,.box2,.box3,.box4,.box5,.box6{
+    width: 260px;
+   
+}
+
+
+button{
+    cursor: pointer;
+    padding: 8px 10px !important;
+    font-size: 15px !important;
+}
+input{
+    padding: 5px !important;
 }
